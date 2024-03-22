@@ -55,7 +55,7 @@ body{
 }
 .display{
     display: none;
-}
+} 
 
 @media (max-width:900px){
     body{
@@ -68,10 +68,11 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        gap:2em;
+        gap:1em;
      }
     .main>h1{
         font-size: 3.5em;
+        margin-left: 0;
     }
     .game{
         margin-left: 0.5em;
@@ -104,9 +105,10 @@ body{
         margin: 0 0 0 3.5em;
     }
     .msgcontainer{
-        height: 5vmin;
-        font-size: 5.5vmin;
+        height: 10vmin;
+        font-size: 7vmin;
         background-color: transparent;
+        border: 2px solid black;
     }
     .display{
         display: none;
