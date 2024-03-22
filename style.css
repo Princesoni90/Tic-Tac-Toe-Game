@@ -108,7 +108,6 @@ body{
         height: 10vmin;
         font-size: 7vmin;
         background-color: transparent;
-        border: 2px solid black;
     }
     .display{
         display: none;
