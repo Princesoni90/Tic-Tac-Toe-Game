@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #22223b;
+    color: #f2e9e4
+}
+/* body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:2em;
+}
+.main>h1{
+    font-size: 5em;
+    margin-left: 1em;
+}
+.game{
+    width: 38em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+    gap:4em;
+}
+.box{
+    height: 1.5em;
+    width: 1.5em;
+    color:orange;
+    background-color:#f2e9e4;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.3em;
+    box-shadow: 0 0 1em black;
+    font-size: 10vmin;
+}
+.reset{
+    height: 10vmin;
+    width: 25vmin;
+    background-color: chocolate;
+    border: none;
+    border-radius: 1em;
+    font-size: 2em;
+    margin: 0 0 0 6em;
+}
+.msgcontainer{
+    height: 5vmin;
+    font-size: 5.5vmin;
+    background-color: transparent;
+}
+.display{
+    display: none;
+} */
+
+@media (max-width:900px){
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:2em;
+     }
+    .main>h1{
+        font-size: 3.5em;
+    }
+    .game{
+        margin-left: 0.5em;
+        width: 80vw;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:space-between;
+        gap:1em;
+    }
+    .box{
+        height: 2em;
+        width: 2em;
+        color:orange;
+        background-color:#f2e9e4;
+        text-decoration: none;
+        border: none;
+        border-radius: 0.3em;
+        box-shadow: 0 0 1em black;
+        font-size: 10vmin;
+    }
+    .reset{
+        height: 15vmin;
+        width: 42vmin;
+        background-color: chocolate;
+        border: none;
+        border-radius: 1em;
+        font-size: 1.5em;
+        margin: 0 0 0 3.5em;
+    }
+    .msgcontainer{
+        height: 5vmin;
+        font-size: 5.5vmin;
+        background-color: transparent;
+    }
+    .display{
+        display: none;
+    }
+    
+
+} 
